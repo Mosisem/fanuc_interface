@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>projeto_final</title>
+</head>
+<body>
+    <section id="content_principal">
+        <section id="contente_principal_info">
+            <div id="div_title">
+                <h1>
+                    Monitoramento - Integrado
+                </h1>
+            </div>
+
+            <section id="div_obj">
+                    <img id="img_robotic" src="imagens/industrial-robotic.png" alt="braço industrial-robotic">
+                    <p>
+                        <h3>Robô - FANUC</h3>
+                    </p>
+            </section>
+            <div id="estado_da_maquina">
+                <div id="b_desativado" >Sleep</div>
+                <div id="b_ativo" >Running</div>
+            </div>
+
+        </section>
+        <section id="contente_info2">
+            <section id="contente_sub_info2">
+                    <div id="info_taxa">
+                        <p>
+                            <h2>
+                            Em Execução:
+                            </h2>
+                        </p>
+                        <div id="server_dd_taxa">
+                             Sevidor desativado
+                        </div>
+                    </div>
+                    <div id="info_status">
+                        <p>
+                            <h2>
+                                Status:
+                            </h2>
+                        </p>
+                        <div id="server_dd_status">
+                             Sevidor desativado
+                        </div>
+                    </div>
+                    <div id="info_log">
+                      <p>
+                        <h3>
+                            ULTIMO LOG:
+                        </h3>
+                      </p>
+                      <div id="server_dd_log">
+                            Sevidor desativado
+                      </div>
+
+                    </div>
+            </section>
+            <section id="contagem">
+                        <div id="contagem_vermelho">
+                            <p>
+                                <h2>RAMPA 1</h2>
+                            </p>
+                            <div id="contagem_p_v">
+                                0
+                            </div>
+                        </div>
+                        <div id="contagem_preta">
+                            <p>
+                                <h2>
+                                    RAMPA 2
+                                </h2>
+                            </p>
+                            <div id="contagem_p_pre">
+                                0
+                            </div>
+                        </div>
+                        <div id="contagem_prata">
+                            <p>
+                                <h2>
+                                    RAMPA 3
+                                </h2>
+                            </p>
+                            <div id="contagem_p_prat">
+                                0
+                            </div>
+                        </div>
+            </section>
+            <section id="dados_puros">
+                <p>
+                    <h2>
+                        DADOS SEM FILTRO:
+                    </h2>
+                </p>
+                <div id="cmd_dados">
+                    <p>
+                        <h3>
+                            cmd:
+                        </h3>
+                        <hr>
+                        <h4>
+                            [...]
+                        </h4>
+                        <h4 id="mensagem_s">
+
+                        </h4>
+                    </p>
+                </div>
+            </section>
+        </section>
+        
+    </section>
+    
+</body>
+</html>
+<script src="dados.js"></script>
+<script src="scipt.js"></script>

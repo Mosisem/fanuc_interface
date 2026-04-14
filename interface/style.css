@@ -1,0 +1,182 @@
+*{
+    margin: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+:root{
+      --fundodiv:aqua;
+      --fundoopcao:#33d46b;
+      --fundodiv-2:#000;
+      --fundo-alerta:#C1121F;
+      ---borda:rgba(204, 204, 204, 0.897);
+      ---cmd:#40ff00f1;
+}
+
+body{
+    background-color: var(--fundodiv-2);
+    align-items: center;
+    
+}
+
+#img_robotic{
+    width: 100%;
+}
+
+
+#content_principal{
+    background-color:black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+#contente_principal_info{
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+}
+#div_title{
+    width: 55%;
+    padding: 5px;
+    color: white;
+}
+
+#div_obj{
+   text-align: center;
+    background-color: aqua;
+    width: 50%;
+    padding: 3px;
+    justify-content:right;
+    border-radius: 3px;
+}
+
+#contente_info2{
+    padding: 10px;
+    width: 40%;
+    height: 800px;
+    align-items:center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #343a46;
+}
+
+#contente_sub_info2{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+#info_taxa{
+    width: 100%;
+    margin: 10px;
+    padding: 6px;
+    border: var(---borda) 2px solid;
+    border-radius: 2px;
+}
+
+#info_status{
+    width: 100%;
+    margin: 10px;
+    padding: 6px;
+    border: var(---borda) 2px solid;
+    border-radius: 2px;
+}
+
+#info_log{
+    width: 100%;
+    margin: 10px;
+    padding: 6px;
+    border: var(---borda) 2px solid;
+    border-radius: 2px;
+}
+
+#estado_da_maquina{
+    justify-content: left;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20%;
+    padding: 20px;
+}
+
+#b_desativado{
+    background-color: var(--fundo-alerta);
+    padding: 6%;
+    margin-left: 6%;
+    border-radius: 3px;
+    color: white;
+}
+
+#b_ativo{
+    background-color: var(--fundodiv);
+    padding: 6%;
+    margin-left: 3%;
+    border-radius: 3px;
+    color:black;
+}
+.magictime {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+#contagem{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contagem_vermelho{
+    color: #000;
+    background-color:var(--fundodiv);
+    padding: 15px;
+    height: 70px;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5%;
+}
+
+#contagem_preta{
+    color: #000;
+    background-color: var(--fundodiv);
+    padding: 20px;
+    width: 20%;
+    margin: 5%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contagem_prata{
+    color: #000;
+    background-color: var(--fundodiv);
+    padding: 20px;
+    width: 20%;
+    margin: 5%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#dados_puros{
+    margin-top: 6%;
+}
+
+#dados_puros h2{
+    color: white;
+}
+
+
+
+#cmd_dados{
+    background-color: #000;
+    border: var(---cmd) 2px solid;
+    color: var(---cmd);
+    height: 300px;
+}
+#cmd_dados hr{
+    border: var(---cmd) 1px solid;
+}
+
